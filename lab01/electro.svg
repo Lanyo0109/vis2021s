@@ -43,10 +43,10 @@
   <text x="438" y="12" font-size="12" text-anchor="start" fill="red">448</text>
   <text x="492" y="12" font-size="12" text-anchor="start" fill="red">512</text>
 
-  <rect x="3" y="123" width="384" height="258" stroke="yellow" stroke-width="9" stroke-linecap="miter" fill="none" opacity="0.3"/>
-  <path d="M192 128 Q263 48, 205 60 T192 3" stroke="black" stroke-width="9" stroke-linecap="miter" fill="none" opacity="0.3"/>
-  <path d="M0 233 L113 233" stroke="blue" stroke-width="9" stroke-linecap="miter" fill="none" opacity="0.3"/>
-  <path d="M384 233 L278 233" stroke="blue" stroke-width="9" stroke-linecap="miter" fill="cyan" opacity="0.3"/>
+  <rect x="3" y="123" width="384" height="258" stroke="blue" stroke-width="9" stroke-linecap="miter" fill="yellow" opacity="0.3"/>
+  <path d="M192 128 Q263 48, 205 60 T192 3" stroke="blue" stroke-width="9" stroke-linecap="miter" fill="none" opacity="0.3"/>
+  <path d="M0 233 L113 233" stroke="black" stroke-width="9" stroke-linecap="miter" fill="none" opacity="0.3"/>
+  <path d="M384 233 L278 233" stroke="black" stroke-width="9" stroke-linecap="miter" fill="cyan" opacity="0.3"/>
   <path d="M170 326 C173 363, 217 363, 214 326" stroke="red" stroke-width="9" stroke-linecap="miter" fill="none" opacity="0.3"/>
   <path d="M145 384 C120 430, 100 440, 95 448,
          M95 448 A10 20, 50 0 0, 120 472,
@@ -54,15 +54,15 @@
          M165 487 L223 487,
          M223 487 A10 10, 0 0 0, 260 468,
          M260 465 A10 20, 320 0 0, 293 448,
-         M293 448 C260 430, 280 440, 245 384"  stroke="orange" stroke-width="9" stroke-linecap="miter" fill="none" opacity="0.3"/>
-  <path d="M270 425 Q330 390, 370 420 T445 390" stroke="gray" stroke-width="9" stroke-linecap="miter" fill="none" opacity="0.3"/>
-  <path d="M440 358 A10 15, 20 0 0, 472 371z" stroke="black" stroke-width="9" stroke-linecap="miter" fill="black" opacity="0.3"/>
-  <path d="M450 360 L460 343" stroke="gray" stroke-width="9" stroke-linecap="miter" fill="none" opacity="0.3"/>
-  <path d="M460 363 L470 348" stroke="gray" stroke-width="9" stroke-linecap="miter" fill="none" opacity="0.3"/>
-  <path d="M436 343 Q448 315, 435 325 T435 310" stroke="yellow" stroke-width="9" stroke-linecap="miter" fill="none" opacity="0.3"/>
-  <path d="M485 352 Q513 350, 498 343 T510 335" stroke="yellow" stroke-width="9" stroke-linecap="miter" fill="none" opacity="0.3"/>
+         M293 448 C260 430, 280 440, 245 384"  stroke="blue" stroke-width="9" stroke-linecap="miter" fill="none" opacity="0.3"/>
+  <path d="M270 425 Q330 390, 370 420 T445 390" stroke="black" stroke-width="9" stroke-linecap="miter" fill="none" opacity="0.3"/>
+  <path d="M440 358 A10 15, 20 0 0, 472 371z" stroke="blue" stroke-width="9" stroke-linecap="miter" fill="yellow" opacity="0.3"/>
+  <path d="M450 360 L460 343" stroke="blue" stroke-width="9" stroke-linecap="miter" fill="none" opacity="0.3"/>
+  <path d="M460 363 L470 348" stroke="blue" stroke-width="9" stroke-linecap="miter" fill="none" opacity="0.3"/>
+  <path d="M436 343 Q448 315, 435 325 T435 310" stroke="#D9B300" stroke-width="9" stroke-linecap="miter" fill="none" opacity="0.3"/>
+  <path d="M485 352 Q513 350, 498 343 T510 335" stroke="#D9B300" stroke-width="9" stroke-linecap="miter" fill="none" opacity="0.3"/>
 
-  <circle cx="0" cy="0" r="8" stroke="green" fill="green">
+  <circle cx="0" cy="0" r="8" stroke="pink" fill="red">
    <animateMotion dur="10s" path="M384 128 L195 128,
                                   M192 128 Q263 48, 205 60 T192 3,                             
                                   M192 3 Q152 80, 205 60 T192 128,

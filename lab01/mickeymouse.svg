@@ -44,7 +44,21 @@
   <text x="492" y="12" font-size="12" text-anchor="start" fill="red">512</text>
 
   <path d="M256 256 V270 V242 M256 256 H270 H242" stroke="black" fill="white"></path>
-  <text x="254" y="250" font-size="16" text-anchor="middle" fill="red">(256, 256)</text>
-</svg>
 
-    
+  <text x="254" y="250" font-size="16" text-anchor="middle" fill="red">(256, 256)</text>
+
+  <defs>
+    <path id="edgePath" d="M 384 220 A 155 155, 0, 1, 1, 128 220 A 90 90, 0, 1, 1, 175 175 A 155 155, 0, 0, 1, 340 175 A 90 90, 0, 1, 1, 384 220" stroke-width="10" stroke="black" fill="gray" opacity="0.3"/>
+  </defs>
+
+  <use xlink:href="#edgePath"/>
+
+  <text x="382" y="214" font-size="16" text-anchor="middle" fill="red">(384, 220)</text>
+
+  <circle cx="0" cy="0" r="5" stroke="blue" fill="none">
+    <animateMotion dur="12s" repeatCount="indefinite" rotate="auto">
+        <mpath xlink:href="#edgePath"/>
+    </animateMotion>
+    <animate attributeName="r" to="5" dur="3s" repeatCount="indefinite"/>
+  </circle>
+</svg>
