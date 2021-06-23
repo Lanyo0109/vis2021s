@@ -54,7 +54,7 @@
             <div id="training-section">
 				<h1>
 					主題：<br>
-                    偵測釣魚網站之分類器訓練
+                    釣魚網站之特徵分析
 				</h1>
                 <br>
                 <h3>
@@ -161,50 +161,7 @@
                 d3.select(window)
                     .on("resize", function(){ resizeRight() })
                 ;
-
-
-                /**
-                 * 填版面，不然全部都是白色的很單調
-                 * 這兩個 section 是要讓同學放說明資料和圖片的地方
-                */
-                /*d3.select("#training-section")
-                    .selectAll("p")
-                    .data(d3.range(1, 10))
-                    .enter()
-                    .append("p")
-                    .text(paragraph1)
-                ;
-
-                d3.select("#testing-section")
-                    .selectAll("p")
-                    .data(d3.range(1, 10))
-                    .enter()
-                    .append("p")
-                    .text(Lipsum)
-                ;
-				
-				d3.select("#training-section")
-                    .selectAll("img")
-					.data(d3.range(1, 4))
-					.enter()
-					.append("img")
-					.attr("src", function(d){ return "media/" + d + ".png"})
-                    .style('height', '350px')
-                    .style('width', '350px')
-                ;
-
-                d3.select("#testing-section")
-                    .selectAll("img")
-					.data(d3.range(4, 7))
-					.enter()
-					.append("img")
-					.attr("src", function(d){ return "media/" + d + ".png"})
-                    .style('height', '350px')
-                    .style('width', '350px')
-                ;*/
-				
-				
-
+                
                 var bdt = new BinaryDecisionTree({
                     el: "#train-vs-test",
                     trainingSection: "#training-section",
